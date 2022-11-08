@@ -2,7 +2,7 @@ import React from 'react'
 
 const Header = (props) => {
     return (
-        <header className=' text-3xl font-bold text-teal-500 mb-4'>
+        <header className=' text-5xl font-bold text-center bg-slate-800 py-3 text-white mb-2'>
             <h2>{props.text}</h2>
         </header>
     )

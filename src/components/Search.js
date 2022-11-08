@@ -21,14 +21,14 @@ const Search = (props) => {
 
     return (
 
-        <form action="">
+        <form action="" className=' text-center'>
             <input
-                className=' p-2 border border-gray-600 rounded-lg'
+                className=' w-[400px] m-6 p-2 border border-gray-600 rounded-lg'
                 type="text"
                 value={searchValue}
                 onChange={handleSearchInputChanges}
             />
-            <input className=' font-bold rounded-lg border ml-6 p-1 border-black cursor-pointer' type="submit" value="SEARCH" onClick={callSearchFunction} />
+            <input className=' font-bold w-[250px] rounded-lg border ml-6 py-2 border-black cursor-pointer' type="submit" value="SEARCH" onClick={callSearchFunction} />
         </form>
 
     );

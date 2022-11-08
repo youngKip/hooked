@@ -10,11 +10,12 @@ export default function Movie({ movie }) {
             <h2 className=' text-lg font-bold text-center'>{movie.Title}</h2>
             <div>
                 <img
+                    height={"400px"}
                     src={poster}
                     alt={`The movie titled: ${movie.Title}`} />
 
             </div>
-            <p className=' text-lg text-green-600 font-semibold'>{movie.Year}</p>
+            <p className=' text-lg text-grey-500 text-center font-semibold mt-3'>({movie.Year})</p>
         </div>
     )
 }

@@ -81,11 +81,11 @@ const App = () => {
   const { movies, errorMessage, loading } = state;
 
   return (
-    <div className="App">
+    <div className=" box-border m-0 p-2">
       <Header text="HOOKED" />
       <Search search={search} />
-      <p className="App-intro">Sharing a few of our favourite movies</p>
-      <div className="movies">
+      <p className=" text-lg font-[600] mb-5 text-center">Sharing a few of our favourite movies</p>
+      <div className=" flex flex-wrap gap-3 ">
         {loading && !errorMessage ? (
           <span>loading... </span>
         ) : errorMessage ? (
